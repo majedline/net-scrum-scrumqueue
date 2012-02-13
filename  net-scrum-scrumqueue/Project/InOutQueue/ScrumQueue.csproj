@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FDEBB00E-A84D-45AF-88B6-830E20A73C89}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ScrumQueue</RootNamespace>
+    <AssemblyName>ScrumQueue</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BussinessLogic\Attachment.cs" />
+    <Compile Include="BussinessLogic\BussinessLogicBase.cs" />
+    <Compile Include="BussinessLogic\History.cs" />
+    <Compile Include="BussinessLogic\Project.cs" />
+    <Compile Include="BussinessLogic\StatusType.cs" />
+    <Compile Include="BussinessLogic\SystemStat.cs" />
+    <Compile Include="BussinessLogic\Users.cs" />
+    <Compile Include="CommonLogic\Common.cs" />
+    <Compile Include="CommonLogic\CommonLogicBase.cs" />
+    <Compile Include="BussinessLogic\Login.cs" />
+    <Compile Include="ScrumQueueView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScrumQueueView.Designer.cs">
+      <DependentUpon>ScrumQueueView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BussinessLogic\Item.cs" />
+    <Compile Include="IOLogic\DBAccess.cs" />
+    <Compile Include="IOLogic\FileAccess.cs" />
+    <Compile Include="IOLogic\IOAccess.cs" />
+    <Compile Include="IOLogic\IOAccessException.cs" />
+    <Compile Include="IOQMessages.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UILogic\AboutBoxInOutQueue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILogic\AboutBoxInOutQueue.Designer.cs">
+      <DependentUpon>AboutBoxInOutQueue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UILogic\Controls\UIRTF.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UILogic\Controls\UIRTF.Designer.cs">
+      <DependentUpon>UIRTF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UILogic\UIProjectStats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILogic\UIProjectStats.Designer.cs">
+      <DependentUpon>UIProjectStats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UILogic\UISystemStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILogic\UISystemStatus.Designer.cs">
+      <DependentUpon>UISystemStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UILogic\UISystemStatusSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILogic\UISystemStatusSearch.Designer.cs">
+      <DependentUpon>UISystemStatusSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UILogic\UIUserSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILogic\UIUserSearch.Designer.cs">
+      <DependentUpon>UIUserSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UILogic\UIUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILogic\UIUser.Designer.cs">
+      <DependentUpon>UIUser.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ScrumQueueView.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ScrumQueueView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILogic\AboutBoxInOutQueue.resx">
+      <DependentUpon>AboutBoxInOutQueue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILogic\Controls\UIRTF.resx">
+      <DependentUpon>UIRTF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILogic\ScrumQueueDialog.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ScrumQueueDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILogic\ScrumQueueLoading.resx">
+      <DependentUpon>ScrumQueueLoading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILogic\UIProjectStats.resx">
+      <DependentUpon>UIProjectStats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILogic\UISystemStatus.resx">
+      <DependentUpon>UISystemStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILogic\UISystemStatusSearch.resx">
+      <DependentUpon>UISystemStatusSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILogic\UIUserSearch.resx">
+      <DependentUpon>UIUserSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILogic\UIHistory.resx">
+      <DependentUpon>UIHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILogic\UIProject.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UIProject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILogic\UIItem.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UIItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UILogic\UIProjectSearch.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UIProjectSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UILogic\UIUser.resx">
+      <DependentUpon>UIUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="UILogic\ScrumQueueDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILogic\ScrumQueueDialog.Designer.cs">
+      <DependentUpon>ScrumQueueDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UILogic\ScrumQueueLoading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILogic\ScrumQueueLoading.Designer.cs">
+      <DependentUpon>ScrumQueueLoading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UILogic\UIHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILogic\UIHistory.Designer.cs">
+      <DependentUpon>UIHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UILogic\UIProject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILogic\UIProject.Designer.cs">
+      <DependentUpon>UIProject.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UILogic\UIItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UILogic\UIItem.Designer.cs">
+      <DependentUpon>UIItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UILogic\UIProjectSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UILogic\UIProjectSearch.Designer.cs">
+      <DependentUpon>UIProjectSearch.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,11 @@
+bin\Debug\InOutQueue.exe
+bin\Debug\InOutQueue.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\InOutQueue.InOutQueue.resources
+obj\Debug\InOutQueue.Properties.Resources.resources
+obj\Debug\InOutQueue.csproj.GenerateResource.Cache
+obj\Debug\InOutQueue.exe
+obj\Debug\InOutQueue.pdb
+obj\Debug\InOutQueue.UILogic.UIItem.resources
+obj\Debug\InOutQueue.UILogic.InOutQueueDialog.resources
+obj\Debug\InOutQueue.UILogic.UIItemForm.resources
