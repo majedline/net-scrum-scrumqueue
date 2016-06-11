@@ -67,3 +67,25 @@ C:\Users\MAJED\Projects\ARCHIVES\PROJECTS\InOutQueue\ScrumQueue\Project\InOutQue
 C:\Users\MAJED\Projects\ARCHIVES\PROJECTS\InOutQueue\ScrumQueue\Project\InOutQueue\obj\Debug\ScrumQueue.UILogic.UIUser.resources
 C:\Users\MAJED\Projects\ARCHIVES\PROJECTS\InOutQueue\ScrumQueue\Project\InOutQueue\obj\Debug\GenerateResource.read.1.tlog
 C:\Users\MAJED\Projects\ARCHIVES\PROJECTS\InOutQueue\ScrumQueue\Project\InOutQueue\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\majed\Projects\ScrumQueue\ScrumQueue\trunk\ net-scrum-scrumqueue\Project\InOutQueue\bin\Debug\ScrumQueue.exe.config
+C:\Users\majed\Projects\ScrumQueue\ScrumQueue\trunk\ net-scrum-scrumqueue\Project\InOutQueue\obj\Debug\ScrumQueue.exe
+C:\Users\majed\Projects\ScrumQueue\ScrumQueue\trunk\ net-scrum-scrumqueue\Project\InOutQueue\obj\Debug\ScrumQueue.pdb
+C:\Users\majed\Projects\ScrumQueue\ScrumQueue\trunk\ net-scrum-scrumqueue\Project\InOutQueue\bin\Debug\ScrumQueue.exe
+C:\Users\majed\Projects\ScrumQueue\ScrumQueue\trunk\ net-scrum-scrumqueue\Project\InOutQueue\bin\Debug\ScrumQueue.pdb
+C:\Users\majed\Projects\ScrumQueue\ScrumQueue\trunk\ net-scrum-scrumqueue\Project\InOutQueue\obj\Debug\ScrumQueue.csprojResolveAssemblyReference.cache
+C:\Users\majed\Projects\ScrumQueue\ScrumQueue\trunk\ net-scrum-scrumqueue\Project\InOutQueue\obj\Debug\ScrumQueue.ScrumQueueView.resources
+C:\Users\majed\Projects\ScrumQueue\ScrumQueue\trunk\ net-scrum-scrumqueue\Project\InOutQueue\obj\Debug\ScrumQueue.Properties.Resources.resources
+C:\Users\majed\Projects\ScrumQueue\ScrumQueue\trunk\ net-scrum-scrumqueue\Project\InOutQueue\obj\Debug\ScrumQueue.UILogic.AboutBoxScrumQueue.resources
+C:\Users\majed\Projects\ScrumQueue\ScrumQueue\trunk\ net-scrum-scrumqueue\Project\InOutQueue\obj\Debug\ScrumQueue.UILogic.Controls.UIRTF.resources
+C:\Users\majed\Projects\ScrumQueue\ScrumQueue\trunk\ net-scrum-scrumqueue\Project\InOutQueue\obj\Debug\ScrumQueue.UILogic.ScrumQueueDialog.resources
+C:\Users\majed\Projects\ScrumQueue\ScrumQueue\trunk\ net-scrum-scrumqueue\Project\InOutQueue\obj\Debug\ScrumQueue.UILogic.ScrumQueueLoading.resources
+C:\Users\majed\Projects\ScrumQueue\ScrumQueue\trunk\ net-scrum-scrumqueue\Project\InOutQueue\obj\Debug\ScrumQueue.UILogic.UIProjectStats.resources
+C:\Users\majed\Projects\ScrumQueue\ScrumQueue\trunk\ net-scrum-scrumqueue\Project\InOutQueue\obj\Debug\ScrumQueue.UILogic.UISystemStatus.resources
+C:\Users\majed\Projects\ScrumQueue\ScrumQueue\trunk\ net-scrum-scrumqueue\Project\InOutQueue\obj\Debug\ScrumQueue.UILogic.UISystemStatusSearch.resources
+C:\Users\majed\Projects\ScrumQueue\ScrumQueue\trunk\ net-scrum-scrumqueue\Project\InOutQueue\obj\Debug\ScrumQueue.UILogic.UIUserSearch.resources
+C:\Users\majed\Projects\ScrumQueue\ScrumQueue\trunk\ net-scrum-scrumqueue\Project\InOutQueue\obj\Debug\ScrumQueue.UILogic.UIHistory.resources
+C:\Users\majed\Projects\ScrumQueue\ScrumQueue\trunk\ net-scrum-scrumqueue\Project\InOutQueue\obj\Debug\ScrumQueue.UILogic.UIProject.resources
+C:\Users\majed\Projects\ScrumQueue\ScrumQueue\trunk\ net-scrum-scrumqueue\Project\InOutQueue\obj\Debug\ScrumQueue.UILogic.UIItem.resources
+C:\Users\majed\Projects\ScrumQueue\ScrumQueue\trunk\ net-scrum-scrumqueue\Project\InOutQueue\obj\Debug\ScrumQueue.UILogic.UIProjectSearch.resources
+C:\Users\majed\Projects\ScrumQueue\ScrumQueue\trunk\ net-scrum-scrumqueue\Project\InOutQueue\obj\Debug\ScrumQueue.UILogic.UIUser.resources
+C:\Users\majed\Projects\ScrumQueue\ScrumQueue\trunk\ net-scrum-scrumqueue\Project\InOutQueue\obj\Debug\ScrumQueue.csproj.GenerateResource.Cache

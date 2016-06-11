@@ -75,10 +75,10 @@ namespace ScrumQueue
             this.comboBox_Filter = new System.Windows.Forms.ComboBox();
             this.item1 = new ScrumQueue.UILogic.UIItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
-            this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -91,7 +91,7 @@ namespace ScrumQueue
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.AliceBlue;
-            this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuStrip1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.actionToolStripMenuItem,
@@ -115,7 +115,7 @@ namespace ScrumQueue
             this.exitToolStripMenuItem1});
             this.fileToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // saveAllDefaultToolStripMenuItem
@@ -125,14 +125,14 @@ namespace ScrumQueue
             this.itemToolStripMenuItem});
             this.saveAllDefaultToolStripMenuItem.Name = "saveAllDefaultToolStripMenuItem";
             this.saveAllDefaultToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.saveAllDefaultToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.saveAllDefaultToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
             this.saveAllDefaultToolStripMenuItem.Text = "New";
             // 
             // projectToolStripMenuItem
             // 
             this.projectToolStripMenuItem.Name = "projectToolStripMenuItem";
             this.projectToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
-            this.projectToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.projectToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.projectToolStripMenuItem.Text = "Project";
             this.projectToolStripMenuItem.Click += new System.EventHandler(this.projectToolStripMenuItem_Click);
             // 
@@ -140,7 +140,7 @@ namespace ScrumQueue
             // 
             this.itemToolStripMenuItem.Name = "itemToolStripMenuItem";
             this.itemToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.I)));
-            this.itemToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.itemToolStripMenuItem.Size = new System.Drawing.Size(162, 22);
             this.itemToolStripMenuItem.Text = "Item";
             this.itemToolStripMenuItem.Click += new System.EventHandler(this.itemToolStripMenuItem_Click);
             // 
@@ -151,14 +151,14 @@ namespace ScrumQueue
             this.itemToolStripMenuItem1});
             this.saveItemToolStripMenuItem.Name = "saveItemToolStripMenuItem";
             this.saveItemToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.saveItemToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.saveItemToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
             this.saveItemToolStripMenuItem.Text = "Open";
             // 
             // projectToolStripMenuItem1
             // 
             this.projectToolStripMenuItem1.Name = "projectToolStripMenuItem1";
             this.projectToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.R)));
-            this.projectToolStripMenuItem1.Size = new System.Drawing.Size(160, 22);
+            this.projectToolStripMenuItem1.Size = new System.Drawing.Size(162, 22);
             this.projectToolStripMenuItem1.Text = "Project";
             this.projectToolStripMenuItem1.Click += new System.EventHandler(this.projectToolStripMenuItem1_Click);
             // 
@@ -166,46 +166,46 @@ namespace ScrumQueue
             // 
             this.itemToolStripMenuItem1.Name = "itemToolStripMenuItem1";
             this.itemToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.T)));
-            this.itemToolStripMenuItem1.Size = new System.Drawing.Size(160, 22);
+            this.itemToolStripMenuItem1.Size = new System.Drawing.Size(162, 22);
             this.itemToolStripMenuItem1.Text = "Item";
             this.itemToolStripMenuItem1.Click += new System.EventHandler(this.itemToolStripMenuItem1_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(180, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(186, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(183, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
             this.exitToolStripMenuItem.Text = "Exit Project";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(180, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(186, 6);
             // 
             // saveItemToolStripMenuItem1
             // 
             this.saveItemToolStripMenuItem1.Name = "saveItemToolStripMenuItem1";
             this.saveItemToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.saveItemToolStripMenuItem1.Size = new System.Drawing.Size(183, 22);
+            this.saveItemToolStripMenuItem1.Size = new System.Drawing.Size(189, 22);
             this.saveItemToolStripMenuItem1.Text = "Save Item";
             this.saveItemToolStripMenuItem1.Click += new System.EventHandler(this.saveItemToolStripMenuItem1_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(180, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(186, 6);
             // 
             // exitToolStripMenuItem1
             // 
             this.exitToolStripMenuItem1.Name = "exitToolStripMenuItem1";
             this.exitToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.X)));
-            this.exitToolStripMenuItem1.Size = new System.Drawing.Size(183, 22);
+            this.exitToolStripMenuItem1.Size = new System.Drawing.Size(189, 22);
             this.exitToolStripMenuItem1.Text = "Exit";
             this.exitToolStripMenuItem1.Click += new System.EventHandler(this.exitToolStripMenuItem1_Click);
             // 
@@ -222,31 +222,31 @@ namespace ScrumQueue
             this.editFilterToolStripMenuItem});
             this.actionToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.actionToolStripMenuItem.Name = "actionToolStripMenuItem";
-            this.actionToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
+            this.actionToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
             this.actionToolStripMenuItem.Text = "Tools";
             // 
             // toolStripSeparator8
             // 
             this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(166, 6);
+            this.toolStripSeparator8.Size = new System.Drawing.Size(173, 6);
             // 
             // optionsToolStripMenuItem
             // 
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
-            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.optionsToolStripMenuItem.Text = "Project Statistics";
             this.optionsToolStripMenuItem.Click += new System.EventHandler(this.optionsToolStripMenuItem_Click);
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(166, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(173, 6);
             // 
             // addUserToolStripMenuItem
             // 
             this.addUserToolStripMenuItem.Enabled = false;
             this.addUserToolStripMenuItem.Name = "addUserToolStripMenuItem";
-            this.addUserToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.addUserToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.addUserToolStripMenuItem.Text = "Add User";
             this.addUserToolStripMenuItem.Click += new System.EventHandler(this.addUserToolStripMenuItem_Click);
             // 
@@ -254,20 +254,20 @@ namespace ScrumQueue
             // 
             this.editUserToolStripMenuItem.Enabled = false;
             this.editUserToolStripMenuItem.Name = "editUserToolStripMenuItem";
-            this.editUserToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.editUserToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.editUserToolStripMenuItem.Text = "Edit User";
             this.editUserToolStripMenuItem.Click += new System.EventHandler(this.editUserToolStripMenuItem_Click);
             // 
             // toolStripSeparator7
             // 
             this.toolStripSeparator7.Name = "toolStripSeparator7";
-            this.toolStripSeparator7.Size = new System.Drawing.Size(166, 6);
+            this.toolStripSeparator7.Size = new System.Drawing.Size(173, 6);
             // 
             // addFilterTypeToolStripMenuItem
             // 
             this.addFilterTypeToolStripMenuItem.Enabled = false;
             this.addFilterTypeToolStripMenuItem.Name = "addFilterTypeToolStripMenuItem";
-            this.addFilterTypeToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.addFilterTypeToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.addFilterTypeToolStripMenuItem.Text = "Add Status Type";
             this.addFilterTypeToolStripMenuItem.Click += new System.EventHandler(this.addFilterTypeToolStripMenuItem_Click);
             // 
@@ -275,7 +275,7 @@ namespace ScrumQueue
             // 
             this.editFilterToolStripMenuItem.Enabled = false;
             this.editFilterToolStripMenuItem.Name = "editFilterToolStripMenuItem";
-            this.editFilterToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.editFilterToolStripMenuItem.Size = new System.Drawing.Size(176, 22);
             this.editFilterToolStripMenuItem.Text = "Edit Status Type";
             this.editFilterToolStripMenuItem.Click += new System.EventHandler(this.editFilterToolStripMenuItem_Click);
             // 
@@ -292,39 +292,39 @@ namespace ScrumQueue
             this.comingSoonToolStripMenuItem});
             this.helpToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(45, 20);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
             this.helpToolStripMenuItem.Text = "Help";
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(283, 22);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // myBlogToolStripMenuItem
             // 
             this.myBlogToolStripMenuItem.Name = "myBlogToolStripMenuItem";
-            this.myBlogToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
+            this.myBlogToolStripMenuItem.Size = new System.Drawing.Size(283, 22);
             this.myBlogToolStripMenuItem.Text = "View Owner Blog";
             this.myBlogToolStripMenuItem.Click += new System.EventHandler(this.myBlogToolStripMenuItem_Click);
             // 
             // contactMeForHelpToolStripMenuItem
             // 
             this.contactMeForHelpToolStripMenuItem.Name = "contactMeForHelpToolStripMenuItem";
-            this.contactMeForHelpToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
+            this.contactMeForHelpToolStripMenuItem.Size = new System.Drawing.Size(283, 22);
             this.contactMeForHelpToolStripMenuItem.Text = "Contact me for Help";
             this.contactMeForHelpToolStripMenuItem.Click += new System.EventHandler(this.contactMeForHelpToolStripMenuItem_Click);
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(253, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(280, 6);
             // 
             // yourRightsToolStripMenuItem
             // 
             this.yourRightsToolStripMenuItem.Name = "yourRightsToolStripMenuItem";
-            this.yourRightsToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
+            this.yourRightsToolStripMenuItem.Size = new System.Drawing.Size(283, 22);
             this.yourRightsToolStripMenuItem.Text = "Your Rights";
             this.yourRightsToolStripMenuItem.Visible = false;
             this.yourRightsToolStripMenuItem.Click += new System.EventHandler(this.yourRightsToolStripMenuItem_Click);
@@ -332,19 +332,19 @@ namespace ScrumQueue
             // gNUGENERALPUBLICLICENSEToolStripMenuItem
             // 
             this.gNUGENERALPUBLICLICENSEToolStripMenuItem.Name = "gNUGENERALPUBLICLICENSEToolStripMenuItem";
-            this.gNUGENERALPUBLICLICENSEToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
+            this.gNUGENERALPUBLICLICENSEToolStripMenuItem.Size = new System.Drawing.Size(283, 22);
             this.gNUGENERALPUBLICLICENSEToolStripMenuItem.Text = " GNU GENERAL PUBLIC LICENSE";
             this.gNUGENERALPUBLICLICENSEToolStripMenuItem.Click += new System.EventHandler(this.gNUGENERALPUBLICLICENSEToolStripMenuItem_Click);
             // 
             // toolStripSeparator6
             // 
             this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(253, 6);
+            this.toolStripSeparator6.Size = new System.Drawing.Size(280, 6);
             // 
             // comingSoonToolStripMenuItem
             // 
             this.comingSoonToolStripMenuItem.Name = "comingSoonToolStripMenuItem";
-            this.comingSoonToolStripMenuItem.Size = new System.Drawing.Size(256, 22);
+            this.comingSoonToolStripMenuItem.Size = new System.Drawing.Size(283, 22);
             this.comingSoonToolStripMenuItem.Text = "Coming Soon...";
             this.comingSoonToolStripMenuItem.Click += new System.EventHandler(this.comingSoonToolStripMenuItem_Click);
             // 
@@ -502,7 +502,7 @@ namespace ScrumQueue
             this.item1.Item = null;
             this.item1.Location = new System.Drawing.Point(3, 3);
             this.item1.Name = "item1";
-            this.item1.Size = new System.Drawing.Size(895, 304);
+            this.item1.Size = new System.Drawing.Size(895, 302);
             this.item1.TabIndex = 0;
             // 
             // toolStrip1
@@ -518,6 +518,24 @@ namespace ScrumQueue
             this.toolStrip1.Size = new System.Drawing.Size(929, 26);
             this.toolStrip1.TabIndex = 24;
             this.toolStrip1.Text = "toolStrip1";
+            // 
+            // toolStripButton4
+            // 
+            this.toolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
+            this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton4.Margin = new System.Windows.Forms.Padding(1, 1, 10, 2);
+            this.toolStripButton4.Name = "toolStripButton4";
+            this.toolStripButton4.Size = new System.Drawing.Size(23, 23);
+            this.toolStripButton4.Text = "Add Item";
+            this.toolStripButton4.Click += new System.EventHandler(this.toolStripButton4_Click);
+            // 
+            // toolStripSeparator10
+            // 
+            this.toolStripSeparator10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.toolStripSeparator10.Margin = new System.Windows.Forms.Padding(1, 1, 10, 2);
+            this.toolStripSeparator10.Name = "toolStripSeparator10";
+            this.toolStripSeparator10.Size = new System.Drawing.Size(6, 23);
             // 
             // toolStripButton1
             // 
@@ -540,24 +558,6 @@ namespace ScrumQueue
             this.toolStripButton3.Size = new System.Drawing.Size(23, 23);
             this.toolStripButton3.Text = "Add Project";
             this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
-            // 
-            // toolStripSeparator10
-            // 
-            this.toolStripSeparator10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.toolStripSeparator10.Margin = new System.Windows.Forms.Padding(1, 1, 10, 2);
-            this.toolStripSeparator10.Name = "toolStripSeparator10";
-            this.toolStripSeparator10.Size = new System.Drawing.Size(6, 23);
-            // 
-            // toolStripButton4
-            // 
-            this.toolStripButton4.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton4.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton4.Image")));
-            this.toolStripButton4.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton4.Margin = new System.Windows.Forms.Padding(1, 1, 10, 2);
-            this.toolStripButton4.Name = "toolStripButton4";
-            this.toolStripButton4.Size = new System.Drawing.Size(23, 23);
-            this.toolStripButton4.Text = "Add Item";
-            this.toolStripButton4.Click += new System.EventHandler(this.toolStripButton4_Click);
             // 
             // ScrumQueueView
             // 

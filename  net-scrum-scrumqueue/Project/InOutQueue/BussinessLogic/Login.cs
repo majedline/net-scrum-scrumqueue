@@ -61,7 +61,9 @@ namespace ScrumQueue.BussinessLogic
                 this.loginStatus = true;
             }
 
-            
+            reader.Close();
+            dba.CloseConn();
+                
         }
 
         public bool IsAllowed()
