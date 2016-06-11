@@ -73,7 +73,7 @@ namespace ScrumQueue
             this.dataGridView_Items = new System.Windows.Forms.DataGridView();
             this.label_Filter = new System.Windows.Forms.Label();
             this.comboBox_Filter = new System.Windows.Forms.ComboBox();
-            this.item1 = new ScrumQueue.UILogic.UIItem();
+            this.item1 = new ScrumQueue.UILogic.UIRichItem();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
@@ -613,7 +613,7 @@ namespace ScrumQueue
         private System.Windows.Forms.DataGridView dataGridView_Items;
         private System.Windows.Forms.Label label_Filter;
         private System.Windows.Forms.ComboBox comboBox_Filter;
-        private global::ScrumQueue.UILogic.UIItem item1;
+        private global::ScrumQueue.UILogic.UIRichItem item1;
         private System.Windows.Forms.ToolStripMenuItem optionsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         private System.Windows.Forms.Button button_New;
