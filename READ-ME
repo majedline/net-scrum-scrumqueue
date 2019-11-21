@@ -13,23 +13,6 @@ From a development and open-source perspective, the best features are:
 - Code building/modification of the project can be setup using opensource or available freeware
 
 This application is open-source and available for all for FREE under the GNU license.
-_________________________________________________________________________________
-Lists/Projects/
 
-
-Item Lists
-<image src="http://4.bp.blogspot.com/-qhQk4ieIiHk/TziUh_3XALI/AAAAAAAAAGI/z91v76Rd5Wc/s1600/Login+and+List+Selector.png" />
-
-System Status 
-
-
- Add/Edit Users
-
-
-Add Attachments
-
-
-View Some Basic Stats 
-
-
-View History of all items
+Technologies used:
+.Net, C#, MSSQL.
