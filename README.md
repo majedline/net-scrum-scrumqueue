@@ -1,4 +1,4 @@
-<b>ScrumQueue©</b>
+# ScrumQueue©
 ScrumQueue© is a very simple desktop application to manage your projects, bugs, or any customizable list.
 - Projects - Agile, Scrum. Ad-hoc
 - List items - Backlog items, Task List, Bug List.
